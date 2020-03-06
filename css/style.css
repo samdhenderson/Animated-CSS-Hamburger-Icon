@@ -14,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 46vh;
+  height: 42vh;
   width: 100%;
   overflow: hidden;
 }
@@ -104,11 +104,19 @@ h3 {
 #sizer {
   text-align: center;
   position: absolute;
-  bottom: 100px;
+  bottom: 30px;
   width: 100%;
   font-size: 10px;
   margin: 0;
   padding: 0;
+}
+
+#sizer h3 {
+  margin: 5px;
+}
+
+#sizer button h3 {
+  margin: 15px;
 }
 
 .button {
