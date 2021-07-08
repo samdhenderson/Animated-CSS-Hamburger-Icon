@@ -46,12 +46,14 @@ h3 {
 }
 
 .hamburger {
+  overflow: visible;
   position: absolute;
   height: 1rem;
   width: 8rem;
   margin-top: 2.4rem;
   background: white;
   transition: 0.5s;
+  z-index: 3;
 }
 
 .hamburger::before {
@@ -62,6 +64,8 @@ h3 {
   width: 8rem;
   background: white;
   transition: 0.5s;
+  overflow: visible;
+  z-index: 3;
 }
 
 .hamburger::after {
@@ -72,6 +76,8 @@ h3 {
   width: 8rem;
   background: white;
   transition: 0.5s;
+  overflow: visible;
+  z-index: 3;
 }
 
 .active {
